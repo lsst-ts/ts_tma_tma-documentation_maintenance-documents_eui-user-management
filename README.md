@@ -104,7 +104,7 @@ And the correspondence between user level and capabilities is shown in next figu
 
 ### User management application
 
-To manage the users the application "User Management Too" must be used
+To manage the users the application "User Management Tool" must be used
 
 ![Alt text](Resources/UserManagementTool.png)
 
@@ -112,7 +112,7 @@ When running the tool just wait some time for user login. Any M_Maintenance priv
 
 ![Alt text](Resources/UserLogIn.png)
 
-After properly loggin the User Access Toolkit - Configuration Editor form wire flow is shwon.
+After properly login the User Access Toolkit - Configuration Editor form wire flow is shown.
 
 ![Alt text](Resources/UserAccessToolkitWindow.png)
 
@@ -150,12 +150,13 @@ To change the password of and existing user, select the user and double click or
 
 ![Alt text](Resources/ChangePassword.png)
 
-
 ### Manage the file
 
 When all the modifications with the user are done, the user configuration file must be saved. The file is save in File->Save...
 
 ![Alt text](Resources/SaveFile.png)
+
+>>**The EUI must be restarted to changes take effect**
 
 The changes can be reverted using the Edit->Revert action.
 
