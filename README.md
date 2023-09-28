@@ -104,7 +104,7 @@ And the correspondence between user level and capabilities is shown in next figu
 
 ### User management application
 
-To manage the users the application "User Management Tool" must be used
+To manage the users the application "User Management Tool" must be used.It is located /usr/local/TMA_UserManagement, and there is a shortcut in the desktop.
 
 ![Alt text](Resources/UserManagementTool.png)
 
