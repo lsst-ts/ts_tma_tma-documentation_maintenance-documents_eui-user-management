@@ -1,4 +1,4 @@
-# Create EUI Users
+# Manage EUI Users
 
 | **Requested by:** | **AURA** |
 |-------------------|----------|
@@ -8,7 +8,7 @@
 
 ## Index
 
-- [Create EUI Users](#create-eui-users)
+- [Manage EUI Users](#manage-eui-users)
   - [Index](#index)
   - [Introduction](#introduction)
   - [Safety related](#safety-related)
@@ -24,8 +24,6 @@
 This document shows how to create new user in the EUI. It will also show how to change privileges to an existing one.
 
 ## Safety related
-
-
 
 ## User management
 
@@ -62,7 +60,7 @@ always within the preset limits for each of them. This type of user cannot save 
 
 And the correspondence between user level and capabilities is shown in next figure
 
-```plantuml
+```{uml}
 @startsalt
 {
 ..
@@ -126,23 +124,22 @@ To create a new user follow next steps
 
 1. Press in the "Add User" button
 
-![Create a new user](Resources/CreateANewUser.png)
+  ![Create a new user](Resources/CreateANewUser.png)
 
 2. In the User Configuration window insert the new user Name, leaving the Active as checked. In the Name there can't be any special character or blanks.
-  
 3. Then press the "Configuration" button to change the password
 
-![User information when creating a new user](Resources/NewUser_UserInformationWindow.png)
+  ![User information when creating a new user](Resources/NewUser_UserInformationWindow.png)
 
 4. In the "Change password" window crate a "New Password" and "Confirm New Password", then press OK, in this window and in the previous window
 
-![Change password](Resources/PasswordChange.png)
+  ![Change password](Resources/PasswordChange.png)
 
 5. In the Group Vs Users found the new user and click in the desired group for give the user the desired privileges. The groups that a user belongs to appears green colored in the table
 
-![Alt text](Resources/SelectGroup.png)
+  ![Alt text](Resources/SelectGroup.png)
 
-![Alt text](Resources/SelectedGroups.png)
+  ![Alt text](Resources/SelectedGroups.png)
 
 ### Change Password
 
